@@ -21,7 +21,7 @@ Everyone should have a title page with:
 * Your name
 * The title "CS 1632 - DELIVERABLE 3: Web Testing with BDD"
 
-For the summar, add a description of issues you faced when writing these tests and problems you would expect going forward based on your experiences.  If any tests you wrote fail, they should be included here.  Also note if there are any special steps to get the tests running.
+For the summary, add a description of issues you faced when writing these tests and problems you would expect going forward based on your experiences.  If any tests you wrote fail, they should be included here.  Also note if there are any special steps to get the tests running.
 
 At the end of this section, note where your test code is located.  
 
