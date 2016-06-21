@@ -76,6 +76,11 @@ _Parsing_: Any non-whitespace (e.g. `:op_nl` or `:on_sp`) tokens (such as `+`, `
 
 _Compiling_: Any program that contains `puts` should also have the `putstring` YARV operation.  A program which contains `+` should call the opt_plus operation, plus put any of the values specified on the stack using the `putobject` operation.  Any program which contains `-` (subtraction) should contain the `opt_minus` operation, any program with `/`(division) should contain `opt_div`, any program with `*` should contain `opt_mult`.
 
+## Note on Firefox / Selenium in Windows
+
+To open the Selenium IDE from Firefox in Windows, right click the top bar of firefox, between the open tabs and the minimize button. Click "Menu Bar" so the menu bar shows up in the top left corner. Under "Tools" is "Selenium IDE".
+
+Alternatively, "ctrl+alt+s" while in the Firefox window should also bring up the IDE.
 
 ## Grading
 * Summary and Testing concerns - 10% 
