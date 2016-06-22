@@ -53,17 +53,17 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
    * Web Testing Exercise
   
 ## Class 11 (22 Jun)
+  * Guest lecturer: Andre Henry on "DevOps"
   * Pairwise and Combinatorial Testing
-  * Stochastic and Property-Based Testing
   * READING: AFIST, Chapter 17 - 18
   
 ## Class 12 (27 Jun)
+  * Stochastic and Property-Based Testing
   * Performance Testing, Part 1
-  * Performance Testing, Part 2
   * READING: AFIST, Chapter 19
   
 ## Class 13 (29 Jun)
-  * Performance Testing, Part 3
+  * Performance Testing, Part 2
   * Performance Testing Exercise
 
 ## INDEPENDENCE DAY (4 Jul)
