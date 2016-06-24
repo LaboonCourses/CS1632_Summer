@@ -1,0 +1,31 @@
+Grading Rubric
+Deliverable 3
+
+Summary and Testing Concerns:                    _________ / 10
+
+Screen shot of test results:                     _________ / 10
+
+User Stories and Scenarios:
+
+Stories in Connextra template:                   _________ / 5
+ 
+Scenarios in Given/When/Then template:           _________ / 5
+
+User stories line up w/ functionality:           _________ / 5
+
+Scenarios line up w/ functionality:              _________ / 5
+
+Scenarios line up w/ user stories:               _________ / 5
+
+Scenarios line up w/ tests:                      _________ / 5
+
+Test code:
+
+Tests coded / work correctly:                    _________ / 20
+
+Tests check using appropriate asserts:           _________ / 20
+
+General code quality:                            _________ / 10
+
+Total:
+                                                 _________ / 100
