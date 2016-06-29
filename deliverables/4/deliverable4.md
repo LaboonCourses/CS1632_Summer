@@ -48,9 +48,15 @@ Examples:
 [1, 1, 2, 2, 3, 3] -> [1, 1, 4, 4, 9, 9, 28]
 ```
 
+The signature of the method should be:
+
+```java
+public int[] laboonify(int[] x)
+```
+
 ## Testing
 
-You should assume that all arrays passed in to your method will contain one or more elements (there will be no nulls or zero-length arrays), and a maximum of one hundred elements.  You should assume that all values passed in the array are positive integers between the values of 1 and 100.
+You should assume that all arrays passed in to your method will contain one or more elements (there will be no nulls or zero-length arrays), and a maximum of one hundred elements.  You should assume that all values passed in the array are positive integers between the values of 1 and 100 (inclusive).
 
 Think of three properties that should always hold.  Write these (in natural language, i.e. English) in the comments above each test that tests that property.  Write tests that pseudo-randomly generate possible arrays, pass them to the `laboonify` method, then check to see if they meet the invariants (properties) that you specify.  If they do not meet the invariant, then the test should immediately fail (via `fail()` or some particular assertion you use).
 
@@ -62,7 +68,8 @@ Every assignment should have a title page with:
 ## Grading (Property-Based Testing)
 * Summary - 10%
 * Screenshot of completed test - 20%
-* Test Code - 70%
+* `laboonify` method works properly - 20%
+* Test Code - 50%
 
 Please feel free to email me or come to office hours to discuss any problems you have. 
  
