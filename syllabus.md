@@ -1,7 +1,9 @@
 # Syllabus - Summer 2016
 CS1632: Software Quality Assurance
 
-_Although the professor will make a best effort to have the class topic on the day listed, occasionally a change must be made (e.g., a lecture going long, or a guest lecturer unable to make it to class that day).  However, these are the topics that will be covered and the expected date that they will be taught._
+_Note: Although the professor will make a best effort to have the class topic on the day listed, occasionally a change must be made (e.g., a lecture going long, or a guest lecturer unable to make it to class that day).  However, these are the topics that will be covered and the expected date that they will be taught._
+
+_Note: Due to a medical condition, class was cancelled on 27 June.  This schedule has been updated to show the actual schedule going forward.  Please look at previous commits to see the original schedule._
 
 AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
@@ -58,34 +60,32 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
   * READING: AFIST, Chapter 17 - 18
   
 ## Class 12 (27 Jun)
+  * CLASS CANCELLED
+  
+## Class 13 (29 Jun)
   * Stochastic and Property-Based Testing
   * Performance Testing, Part 1
   * READING: AFIST, Chapter 19
-  
-## Class 13 (29 Jun)
-  * Performance Testing, Part 2
-  * Performance Testing Exercise
 
 ## INDEPENDENCE DAY (4 Jul)
   * NO CLASS
 
 ## Class 14 (6 Jul)
+  * Performance Testing, Part 2
+  * Performance Testing Exercise
+  
+## Class 15 (11 Jul)
   * Security Testing, Part 1
   * Security Testing, Part 2
   * READING: AFIST, Chapter 20
-  
-## Class 15 (11 Jul)
-  * Security Testing, Part 3
-  * Security Exercise
  
 ## Class 16 (13 Jul)
+  * Security Exercise
+
+## Class 17 (18 Jul)
   * Interacting with Stakeholders
   * Stakeholder Interaction Exercise
   * READING: AFIST, Chapter 21
-
-## Class 17 (18 Jul)
-  * Integration Testing
-  * The Process of Quality
 
 ## Class 18 (20 Jul)
   * Static Analysis, Part 1
