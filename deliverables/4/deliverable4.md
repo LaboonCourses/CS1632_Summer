@@ -11,7 +11,7 @@ For the JUnit-based property-based tests, generate a minimum of 100 different ra
 
 There should be one property tested with each JUnit method.  Therefore, there should be three different @Test-annotated methods.
 
-Additionally, I expect an approximately one-page (3 or 4 paragraphs) description of why you chose this project, how you went about doing it, any issues you faced, and failures discovered (if any).  
+Additionally, I expect an approximately one-page (3 or 4 paragraphs) description of how you went about doing this project, any issues you faced, and failures discovered (if any).  
 
 Finally, I will require a screenshot of the results of the executed unit tests (not the test code itself).  Please put this on its own page.
 
