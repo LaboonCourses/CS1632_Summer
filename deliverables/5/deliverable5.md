@@ -1,7 +1,7 @@
 # CS 1632 - Software Quality Assurance
 Summer Semester 2016
 
-DUE 13 June 2016
+DUE 13 July 2016
 
 ## Deliverable 5
 
