@@ -45,7 +45,7 @@ For the summary, describe how you profiled the application and determined the me
 
 After this, include screenshots of VisualVM (or another profiler, if you use that) both before and after the refactor.  These screenshots should include the relevant sections that let you see what method to refactor.
 
-As part of this assignment, you should create "pinning tests".  Pinning tests are ubnit tests which should check that the behavior of a modified method was not changed by your refactor (see the chapter on testing legacy code in AFIST for examples).  This program should work EXACTLY the same as before, except it should be faster and take up less CPU time.  The only exception is if you come across an error and fix it - no points will be taken off as long as you note it in your summary.
+As part of this assignment, you should create "pinning tests".  Pinning tests are unit tests which should check that the behavior of a modified method was not changed by your refactor (see the chapter on testing legacy code in AFIST for examples).  This program should work EXACTLY the same as before, except it should be faster and take up less CPU time.  The only exception is if you come across an error and fix it - no points will be taken off as long as you note it in your summary.
 
 There should be a *bare minimum* of least three pinning tests per method modified (check different edge cases).  Some method modifications may be difficult to unit test; you may write several manual test cases instead of unit tests for these.  If you do so, however, please note in the Summary why you did it.
 
