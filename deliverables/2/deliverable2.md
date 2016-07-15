@@ -1,5 +1,5 @@
 # CS 1632 - Software Quality Assurance
-Summer Semester 2015
+Summer Semester 2016
 DUE 13 JUN 2016
 
 ## Deliverable 2
