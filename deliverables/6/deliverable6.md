@@ -14,6 +14,11 @@ For this assignment, you (NOT a group) will use static analysis to improve an im
 2. Add two unit tests to the one method found by findbugs which has known functional impact.
 2. Use checkstyle with the included configuration file (google_checks_modified.xml) to find any style issues with the Sieve.java code and fix them.
 
+Example:
+```
+java -jar ~/checkstyle/checkstyle-7.0-all.jar -c ./google_checks_modified.xml ~/pitt/SlowLifeGUI/*.java
+```
+
 Code will be on Github (https://github.com/laboon/bug-fodder).  You may fork the repository or copy the files to your own repository, whatever you find easiest.
 
 There are no partners for this deliverable.
