@@ -1,6 +1,45 @@
 
 ## Rust Cheat Sheet
 
+### Cargo commands
+
+These should be run from the command line.   
+
+#### Create new standalone program project
+
+This will make a new project under the subdirectory foo (e.g., if you are in /user/laboon, and type this command, there will be a new subdirectory /user/laboon/foo.  /user/laboon/foo/src will contain the file main.rs which will have the entry point for the program, fn main().  Go into the foo directory to run commands other than "new" such as "build" or "run".
+
+```
+cargo new foo --bin
+```
+
+#### Create new library project
+
+```
+cargo new foo
+```
+
+#### Build a cargo project without running it
+
+```
+cargo build
+```
+
+#### Build and run a cargo project
+
+```
+cargo run
+```
+
+#### Run unit tests on a project
+
+See https://doc.rust-lang.org/book/testing.html for how to write unit tests for your Rust applicaiton.
+
+```
+cargo test
+```
+
+
 ### Basic Function Syntax
 
 ```rust
