@@ -1,16 +1,16 @@
 ## Supplemental Rust Exercise
 
-With a partner, develop a self-playing game I am calling "Absurd-Tac-Toe" in Rust, using the following functional requirements:
+With a partner, develop a self-playing game I am calling "Tic-Tac-Schmoe" in Rust.  This game can be developed on your local computer or using the Rust playground at http://play.integer32.com.  The game should meet the following functional requirements:
 
 1. The user shall be asked to enter the names of twoplayers.  Both of these player's names shall be stored.  If there are any errors in entering their names, their names should be DEFAULT1 and DEFAULT2.
 1. The first player entered plays as X and gets the first move.  The second player plays as O and gets the second move.
 2. Each player chooses a random square to mark as an X or O (the first player will always enter X's and the second player will always enter O's).
 3. Unlike normal tic-tac-toe, you may override other squares.  That is, if the first player has an X on a square, the second player may change it to an O.
+3. You may also "waste" a move by writing over a square you already have marked with your own character.
 3. After each iteration, print the board, with X indicated as 'X', O indicated as 'O', and Empty indicated as '.' (period).
 3. After 100 iterations, the player with the most of their mark on the board (X or O) wins, and the other player loses.  If there is the same number, the game is tied.  Display who won, or if there was a tie, using the following formats:
   1. "*Player1* won!  *Player2* lost!"
   2. "*Player1* and *Player2* tied!"
-3. Finally, print out the number of turns it took to win.  This should increment once for each iteration (X or O player making a mark).
 
 
 It should follow some implementation requirements:
