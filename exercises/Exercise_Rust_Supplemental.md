@@ -19,7 +19,7 @@ It should follow some implementation requirements:
 1. Checking for a win should be in its own method which accepts a borrowed Board type and returns an enum GameStatus.
 2. The tic-tac-toe board shall be a 3x3 array of Squares.  Note that the size of arrays in Rust is fixed at COMPILE time!
 3. Have an enum Square which consists of three possible values: X, O, and Empty.
-3. Have an enum GameStatus which consists of three possible values Player1Win and Player2Win.
+3. Have an enum GameStatus which consists of three possible values: Player1Win, Player2Win, and Tie.
 3. The array shall be of type Square.
 3. Use match instead of if statements whenever possible.  Trust me, your life will be easier!
 4. There should be no compiler warnings or errors.
