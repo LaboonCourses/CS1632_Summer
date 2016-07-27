@@ -156,9 +156,9 @@ enum Animal {
 let a: Animal = Animal::Dog;
 
 match a {
-  Animal::Dog => println!("woof!");
-  Animal::Cat => println!("meow!");
-  Animal::Bird => println!("tweet!");
+  Animal::Dog => println!("woof!"),
+  Animal::Cat => println!("meow!"),
+  Animal::Bird => println!("tweet!")
 }
 
 // This will not work / compile!
