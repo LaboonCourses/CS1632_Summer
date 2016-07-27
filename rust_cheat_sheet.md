@@ -102,6 +102,7 @@ fn embiggen_gnome(mut gnome_to_change: &mut Gnome) {
 
 fn main() {
     let mut g: Gnome = Gnome { height: 100, weight: 200 };
+    println!("This gnome weighs {} grams", g.weight);
     embiggen_gnome(&mut g);
     println!("This gnome weighs {} grams", g.weight);
 }
