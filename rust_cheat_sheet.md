@@ -309,3 +309,21 @@ fn main() {
     println!("s = {}", s);
 }
 ```
+
+### Indexing arrays with integers
+
+```rust
+
+// You will need to cast as usize before using an integer to index
+
+fn main() {
+    // 10-element array (0-9) filled with i32 0's 
+    let mut b = [0i32; 10];
+    // i32 index
+    let loc: i32 = 5;
+    // Will not compile!
+    // b[loc] = 6;
+    // Need to cast as the size of the architecture
+    b[loc as usize] = 6;
+}
+```
