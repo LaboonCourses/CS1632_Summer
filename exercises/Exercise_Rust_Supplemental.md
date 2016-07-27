@@ -1,21 +1,25 @@
 ## Supplemental Rust Exercise
 
-With a partner, develop a tic-tac-toe game in Rust, using the following functional requirements:
+With a partner, develop a self-playing game I am calling "Absurd-Tac-Toe" in Rust, using the following functional requirements:
 
-1. The player shall be asked to enter their name and this name shall be stored.
-1. The player plays as X and gets the first move.
-1. The player enters their moves in the format 0,2.
-1. If the entered move is not in the format n,n where n > 0 and n < 2, then display "Invalid move entered".
-1. If the entered move is not an empty square, then display "That square is already marked".
-2. The computer chooses a random free square to mark as an O.
-3. If the computer or player wins, then display "Computer wins!" or "*Player* wins" respectively, display statistics (see below) and exit.  In the latter case, *Player* should be replaced by the user's name (entered earlier).
-4. If there is a tie (no valid moves left), then display "Tie!", display statistics (see below), and exit.
+1. The user shall be asked to enter the names of twoplayers.  Both of these player's names shall be stored.  If there are any errors in entering their names, their names should be DEFAULT1 and DEFAULT2.
+1. The first player entered plays as X and gets the first move.  The second player plays as O and gets the second move.
+2. Each player chooses a random square to mark as an X or O (the first player will always enter X's and the second player will always enter O's).
+3. Unlike normal tic-tac-toe, you may override other squares.  That is, if the first player has an X on a square, the second player may change it to an O.
+3. After each iteration, print the board, with X indicated as 'X', O indicated as 'O', and Empty indicated as '.' (period).
+3. After 100 iterations, the player with the most of their mark on the board (X or O) wins, and the other player loses.  If there is the same number, the game is tied.  Display who won, or if there was a tie, using the following formats:
+  1. "*Player1* won!  *Player2* lost!"
+  2. "*Player1* and *Player2* tied!"
+3. Finally, print out the number of turns it took to win.  This should increment once for each iteration (X or O player making a mark).
+
 
 It should follow some implementation requirements:
 
-1. Validation of moves should be in a separate method.  That is, have a method which accepts the move as a String and returns a Result indicating the move.
-2. The tic-tac-toe board shall be a 3x3 array.  Note that the size of arrays in Rust is fixed at COMPILE time!
+1. Printing the board should be in its own method which accepts a borrowed Board type and returns nothing.
+1. Checking for a win should be in its own method which accepts a borrowed Board type and returns an enum GameStatus.
+2. The tic-tac-toe board shall be a 3x3 array of Squares.  Note that the size of arrays in Rust is fixed at COMPILE time!
 3. Have an enum Square which consists of three possible values: X, O, and Empty.
+3. Have an enum GameStatus which consists of three possible values Player1Win and Player2Win.
 3. The array shall be of type Square.
-3. Use match instead of if statements whenever possible.
+3. Use match instead of if statements whenever possible.  Trust me, your life will be easier!
 4. There should be no compiler warnings or errors.
