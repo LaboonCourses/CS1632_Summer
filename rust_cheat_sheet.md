@@ -172,6 +172,7 @@ match a {
 fn main() {
     let num_hits: i32 = 6;
     let num_at_bats: i32 = 21;
+    // Cast num_hits and num_at_bats as f32 (32-bit floats)
     let batting_average: f32 = (num_hits as f32) / (num_at_bats as f32);
     println!("batting average = {:.3}", batting_average);
 }
@@ -221,6 +222,25 @@ fn main() {
         println!("");
     }
 
+}
+```
+
+### Arrays of Enums
+```rust
+// Remember this is necessary for arrays of enums
+#[derive(Copy, Clone)]
+enum Animal {
+    Dog,
+    Cat,
+    Bird
+}
+
+fn main() {
+    // 10x10 array of all dogs
+    let mut b = [[Animal::Dog; 10]; 10];
+    // Change a few to cats and birds
+    b[0][1] = Animal::Cat;
+    b[2][3] = Animal::Bird;
 }
 ```
 
