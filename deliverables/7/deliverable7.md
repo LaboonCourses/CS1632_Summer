@@ -49,6 +49,7 @@ You must use at least one struct.
 You must use at least one enum.
 
 ## Format
+
 Every assignment should have a title page with:
 * The name of the students in the group
 * The title "CS 1632 - DELIVERABLE 7: Rock-Paper-Scissors in Rust"
@@ -56,6 +57,13 @@ Every assignment should have a title page with:
 
 There is no need to print out the code.  It should be available on GitHub or a similar code-sharing site BY THE BEGINNING OF CLASS.
 
+## Summary
+
+Please include a summary which includes:
+
+1. Your greatest challenge or challenges with this project
+2. How difficult you thought it was
+3. What seemed confusing or you wish we had gone over better in class?
 
 ## Grading
 * Summary - 10%
