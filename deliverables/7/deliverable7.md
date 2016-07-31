@@ -34,7 +34,7 @@ You may work on this assignment alone if you wish, but the same requirements app
 7. The percentage shall be displayed to two decimal points (e.g, `23.45`, not `23.450176540`).
 8. The percentage shall always be a number (that is, do not display NaNs - these should be display as "0.00").
 8. The prompt should not be on the same line as the input.  (That is, use println! and not print! for the prompt.)
-9. In the case of questions, the sample_output.txt file shall be considered the truth copy.  Any result is shows is valid.
+9. In the case of questions, the sample_output.txt file shall be considered the truth copy.  Any result it shows is valid.
 
 Sample output is available in the sample_output.txt file in this directory.
 
