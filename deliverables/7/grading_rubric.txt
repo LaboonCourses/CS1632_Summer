@@ -1,0 +1,32 @@
+Summary - 10%
+
+
+
+
+
+
+
+Functional requirements met - 45%
+
+
+
+
+
+
+
+
+
+
+Implementation requirements met - 30%
+
+
+
+
+
+
+
+
+
+
+
+No compiler errors OR warnings - 15%
